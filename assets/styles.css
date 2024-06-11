@@ -1,0 +1,70 @@
+/* login-register body */
+.lr-body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  background-color: whitesmoke !important;
+}
+
+.register-image {
+  background-image: url("../assets/images/a_cinema.jpg");
+}
+
+.login-image {
+  background-image: url("..//assets/images/a_popcorn.jpg");
+}
+
+.bg-transparent-50 {
+  background-color: #ffffff6b;
+}
+
+.form {
+  width: 50%;
+}
+
+.img-home {
+  border-radius: 50%;
+  width: 190px;
+  height: 201px !important;
+  object-fit: cover;
+}
+
+.ws-250 {
+  min-width: 280px !important;
+}
+
+.img-admin-panel {
+  height: 190px !important;
+  object-fit: cover;
+}
+
+.nr-info {
+  padding: 1rem;
+  background: #6bc9b845;
+  max-width: 250px !important;
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+}
+
+/* Medium devices */
+@media (max-width: 768px) {
+  .form {
+    width: 100%;
+  }
+
+  .ws-250 {
+    min-width: 100% !important;
+  }
+}
+
+/* Large devices */
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+}
